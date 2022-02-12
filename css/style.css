@@ -7,12 +7,37 @@
   font-family: Lato;
 }
 
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
 .card {
   border: none;
+  background-color: #f8f9fa;
 }
 
 .d-grid {
   display: grid;
+}
+
+.gtr-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.overflow-set {
+  overflow-y: hidden;
+  overflow-x: overlay;
 }
 
 .oX-overlay {
@@ -33,8 +58,9 @@
 }
 
 
+/* ------------------------------------------------------- */
+
 .header {
-  background-color: #e2e2e229;
   padding: 11px 22px;
 }
 
@@ -65,19 +91,17 @@ h2 {
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 700;
+
 }
 
 .song-cards {
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 15px;
-  padding: 5px 10px;
 }
 
 .song-card {
   height: 200px;
   width: 147px;
-  /* margin: -5px 0; */
 }
 
 .img {
@@ -87,17 +111,6 @@ h2 {
 
 .img img {
   width: 147px;
-}
-
-h4 {
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-h6 {
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
 }
 
 .weekly-songs-group {
@@ -162,7 +175,6 @@ h6 {
 
 .radio-cards {
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -170,11 +182,35 @@ h6 {
   width: 147px;
   height: 195px;
 }
-.rar-cards{
+
+.rar-cards {
   grid-template-columns: repeat(8, 1fr);
   gap: 20px;
 }
+
 .rar-card {
   width: 90px;
   height: 143px;
+}
+
+.footer {
+  justify-content: space-around;
+  height: 8%;
+  width: 100vw;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+
+.footer-btn {
+  text-align: center;
+}
+
+.footer-btn svg {
+  width: 21px;
+  height: 21px;
+}
+
+.footer-btn p {
+  margin-bottom: 0;
+  font-size: 12px;
 }
