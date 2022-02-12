@@ -81,7 +81,12 @@ h6 {
 /* ------------------------------------------------------- */
 
 .header {
+  width: 100vw;
   padding: 11px 22px;
+}
+
+.all-songs {
+  margin-top: 6.2rem;
 }
 
 .header-logo {
@@ -255,3 +260,8 @@ h2 {
   height: 147px;
   width: 147px;
 }
+
+
+position: fixed;
+top: 0;
+width: 100vw;
