@@ -57,6 +57,26 @@ h6 {
   scrollbar-width: none;
 }
 
+.play {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.755);
+}
+
+.play svg {
+  fill: white;
+  position: absolute;
+  top: 48%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+}
 
 /* ------------------------------------------------------- */
 
@@ -104,13 +124,8 @@ h2 {
   width: 147px;
 }
 
-.img {
+.song-card img {
   height: 147px;
-  width: 147px;
-}
-
-.img img {
-  width: 147px;
 }
 
 .weekly-songs-group {
@@ -173,25 +188,7 @@ h2 {
   width: 90px;
 }
 
-.radio-cards {
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
 
-.radio-card {
-  width: 147px;
-  height: 195px;
-}
-
-.rar-cards {
-  grid-template-columns: repeat(8, 1fr);
-  gap: 20px;
-}
-
-.rar-card {
-  width: 90px;
-  height: 143px;
-}
 
 .footer {
   justify-content: space-around;
@@ -213,4 +210,48 @@ h2 {
 .footer-btn p {
   margin-bottom: 0;
   font-size: 12px;
+}
+
+
+
+.rar-cards {
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+.rar-card {
+  width: 90px;
+  height: 143px;
+}
+
+.rar-img {
+  height: 90px;
+  position: relative;
+}
+
+.rar-img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.radio-cards {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.radio-card {
+  width: 147px;
+  height: 195px;
+}
+
+.play-song {
+  width: 100%;
+  height: 147px;
+  position: relative;
+}
+
+.play-song img {
+  height: 147px;
+  width: 147px;
 }
